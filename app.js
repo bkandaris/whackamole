@@ -43,8 +43,8 @@ function countDown() {
     clearInterval(countDownTimerId);
     clearInterval(timerId);
     swal({
-      title: 'Congratulations!',
-      text: '!',
+      title: 'Game Over!',
+      text: 'Your whacked the mole ' + result + ' times!',
       icon: 'success',
     });
   }

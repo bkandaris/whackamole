@@ -1,4 +1,4 @@
-* {
+body {
   font-family: 'Brush Script MT', cursive;
   background: lightblue;
 }
@@ -7,7 +7,12 @@ h4 {
   font-size: 1.3rem;
   padding: 0;
   margin: 0;
-  border-bottom: 3px solid blue;
+  border-bottom: 2px solid orange;
+}
+
+p {
+    padding: none;
+    margin: none;
 }
 
 button {
@@ -22,10 +27,11 @@ button {
 }
 
 .square {
+  background: white;
   width: 125px;
   height: 125px;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(22, 22, 22);
 }
 
 .grid {
@@ -40,4 +46,14 @@ button {
 .mole {
   background-image: url('Giant_Mole.png');
   background-size: cover;
+}
+
+button {
+  background: white;
+  cursor: pointer;
+  color: green;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  height: 60px;
+  width: 200px;
 }
