@@ -2,4 +2,4 @@ Whack-A-Mole Game
 
 A fun project written with JavaScript
 
-Hosted:
+Hosted: https://bkandaris.github.io/whackamole/
